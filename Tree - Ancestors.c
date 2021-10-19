@@ -14,7 +14,7 @@ void traverse (node *root);
 node* search (node *root, int val);
 void ancestors (node *root, int val);
 
-int main()
+int main(void)
 {
 	node *root;
 	int choice,val;
@@ -62,7 +62,7 @@ int main()
 	}
 	while (choice != 4);
 	
-	printf("\n\nThank you !! \n\n");
+	printf("\n\n<<< Thank you !! >>>\n\n");
 	
 	return 0;
 }
